@@ -1,0 +1,59 @@
+Current Items:
+Weapons:
+ - Copper Sword
+ - Bronze Sword
+ - Iron Sword
+ - Steel Sword
+ - Copper Axe
+ - Bronze Axe
+ - Iron Axe
+ - Steel Axe
+ - Copper Hammer
+ - Bronze Hammer
+ - Iron Hammer
+ - Steel Hammer
+ - Copper Greatsword
+ - Bronze Greatsword
+ - Iron Greatsword
+ - Steel Greatsword
+ - Copper Warhammer
+ - Bronze Warhammer
+ - Iron Warhammer
+ - Steel Warhammer
+ - Copper Bow
+ - Bronze Bow
+ - Iron Bow
+ - Steel Bow
+ - Copper Arrow
+ - Bronze Arrow
+ - Iron Arrow
+ - Steel Arrow
+Armor:
+ - Hide Armor
+ - Leather Armor
+ - Copper Armor
+ - Bronze Armor
+ - Iron Armor
+ - Steel Armor 
+
+Spells:
+ - Fire Gout
+ - Fire Blast
+ - Frost Gout
+ - Frost Blast
+ - Spark Gout
+ - Spark Blast
+
+Potions:
+ - Basic Healing Potion
+ - Advanced Healing Potion
+ - Basic Stamina Potion
+ - Advanced Stamina Potion
+ - Basic Magicka Potion
+ - Advanced Magicka Potion
+
+Valuables:
+ - Gold Coin
+ - Diamond Gem
+ - Sapphire Gem
+ - Amethyst Gem

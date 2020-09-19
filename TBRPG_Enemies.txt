@@ -1,0 +1,12 @@
+Animals:
+ - Mutated hound
+ - Sick hound
+ - Undead hound
+ - Wolf
+ - Bear
+
+Magic User:
+ - Necromancer
+ - Fire Sorcerer
+ - Frost Sorcerer
+ - Spark Sorcerer

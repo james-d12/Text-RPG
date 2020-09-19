@@ -1,0 +1,12 @@
+200
+Warrior
+0
+1000
+132.3333
+Copper Sword,Hide Armor,Basic Healing Potion,System.Collections.Generic.List`1[System.Object]
+1
+75
+James Durban
+15
+90
+6

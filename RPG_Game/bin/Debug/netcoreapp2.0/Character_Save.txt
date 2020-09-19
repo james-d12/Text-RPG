@@ -1,0 +1,15 @@
+200
+Warrior
+0
+1000
+150
+4
+System.Collections.Generic.List`1[System.Object]
+1
+75
+2
+James Durban
+15
+100
+3
+0

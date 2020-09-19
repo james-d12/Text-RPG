@@ -1,0 +1,57 @@
+item types:
+1 - Weapon
+2 - ranged weapon
+3 - projectile
+4 - light armor
+5 - heavy armor
+6 - potion
+7 - valuable
+8 - spell / stave
+
+archive code - 
+SHOP :
+     if (Shop_Item_Names.Contains(itemchoice))
+                    {
+                        if (_player.Char_Gold >= item.Item_Buy)
+                        {
+                            Console.WriteLine("You have purchased " + item.Item_Name + " for " + item.Item_Buy);
+                            _player.Char_Gold -= item.Item_Buy;
+                            _Merchant.Shop_Gold += item.Item_Buy;
+                            Console.ReadKey();
+                            Shop_Purchase(_player, _Merchant, sentence01, sentence02);
+                        }
+                        else
+                        {
+                            Console.WriteLine("You do not have enough gold.");
+                            Console.ReadKey();
+                            Shop_Purchase(_player, _Merchant, sentence01, sentence02);
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Item not found.");
+                        Console.ReadKey();
+                        Shop_Purchase(_player, _Merchant, sentence01, sentence02);
+                    }
+
+Draw UI :
+        public static void Draw_UI_Equip(Player _player)
+        {
+            Console.Clear();
+            Console.WriteLine("Getting equipment.....");
+            Thread.Sleep(randwait.Next(1000, 3000));
+            Console.Clear();
+            Item[,] ItemArray = new Item[4,10];
+            List<Item> items = new List<Item>();
+            Console.Write("Physical Weapons -      "+ "Magical Weapons -      " + "Armor -      " + "Consumables:       ");
+            foreach (Item item in _player.Char_Inventory)
+            {
+                items.Add(item);
+            }
+            Console.ReadKey();
+        }
+Base player actions :
+        public static void Equip_Items(Player _player, Enemy _enemy)
+        {
+            Draw_UI.Draw_UI_Equip(_player);
+        }
